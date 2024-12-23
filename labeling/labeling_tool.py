@@ -38,7 +38,7 @@ class ImageLabelingTool:
         self.canvas.bind("<ButtonRelease-1>", self.on_mouse_release)
 
     def load_images(self):
-        folder = "C:/Users/likey/Downloads/Capstone_DSU-main/Capstone_DSU-main/Backend/images3"
+        folder = "C:\Users\301\Desktop\base\jetracer\images3"
         if os.path.exists(folder):
             self.image_list = sorted(
                 [os.path.join(folder, f) for f in os.listdir(folder) if f.endswith(('.png', '.jpg', '.jpeg'))]
@@ -95,7 +95,7 @@ class ImageLabelingTool:
         self.display_image()
 
     def save_labels(self):
-        output_folder = "C:/Users/likey/Downloads/Capstone_DSU-main/Capstone_DSU-main/Backend/labeling_images3"
+        output_folder = "C:\Users\301\Desktop\base\jetracer\labeling_images3"
         if not os.path.exists(output_folder):
             os.makedirs(output_folder)
 

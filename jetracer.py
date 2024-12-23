@@ -41,7 +41,7 @@ async def stream_camera(websocket, path):
 async def receive_angle(websocket, path):
     async for message in websocket:
         data = json.loads(message)
-        print(f"수신된 데이터: {data}")  # 수신된 데이터를 전체적으로 출력
+        print(f"수신된 데이터: {data}")  # 수신된F 데이터를 전체적으로 출력
         move_angle = data.get("move_angle")
         throttle = data.get("throttle", 0.3)  # 기본값 0
         print(f"수신된 throttle 값: {throttle}")

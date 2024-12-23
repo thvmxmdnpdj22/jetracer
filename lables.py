@@ -1,11 +1,11 @@
 import os
 
 # 기존 라벨링 데이터 파일 경로
-input_file = "C:/Users/likey/Downloads/Capstone_DSU-main/Capstone_DSU-main/Backend/labeling_images2/labels.txt"  # 첫 번째 데이터 파일
-input_file_2 = "C:/Users/likey/Downloads/Capstone_DSU-main/Capstone_DSU-main/Backend/labeling_images3/labels.txt"  # 두 번째 데이터 파일
+input_file = "C:\Users\301\Desktop\base\jetracer\labeling_images2\labels.txt"  # 첫 번째 데이터 파일
+input_file_2 = "C:\Users\301\Desktop\base\jetracer\labeling_images3\labels.txt"  # 두 번째 데이터 파일
 
 # YOLO 형식 라벨 파일 저장 디렉토리
-output_dir = "C:/Users/likey/Downloads/Capstone_DSU-main/Capstone_DSU-main/Backend/yolo_labels"
+output_dir = "C:\Users\301\Desktop\base\jetracer\yolo_labels"
 os.makedirs(f"{output_dir}/doll", exist_ok=True)
 os.makedirs(f"{output_dir}/goal", exist_ok=True)
 

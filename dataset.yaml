@@ -1,0 +1,5 @@
+train: 'C:\Users\301\Desktop\base\jetracer\train1'
+val: 'C:\Users\301\Desktop\base\jetracer\val1'
+
+nc: 2
+names: ['doll', 'goal']

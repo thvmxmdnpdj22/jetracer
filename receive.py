@@ -8,7 +8,7 @@ import math
 import json
 
 # Load the YOLOv8 model
-model = YOLO('./yolov8n.pt')
+model = YOLO('jetracer/VERY_BEST.pt')
 
 # 모델 내의 클래스 받아오기
 class_names = model.names
